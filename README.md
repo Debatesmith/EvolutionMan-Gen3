@@ -25,7 +25,7 @@ FireRed cart.
 ## Compatibility
 
 - Game: Pokemon FireRed
-- Gen1Recomp: 0.3.22 through the 0.3.x line
+- Gen1Recomp: 0.3.22 through the 1.0 line
 - Mod API: 2
 - Save migration: none
 
