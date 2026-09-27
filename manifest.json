@@ -1,0 +1,20 @@
+{
+  "id": "firered_evolution_man",
+  "name": "Evolution Man: FireRed",
+  "version": "1.0.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GAMEPLAY",
+  "games": [
+    "firered"
+  ],
+  "game_version": ">=0.3.22 <0.4.0",
+  "priority": 100,
+  "permissions": [
+    "engine_internals"
+  ],
+  "conflicts": [],
+  "affects_link": false,
+  "description": "Adds a Celadon Evolution Man who performs valid FireRed trade evolutions for 2000 Pokedollars."
+}

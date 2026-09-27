@@ -1,0 +1,27 @@
+return {
+  summary = "Pay ¥2000 in Celadon to trigger a valid FireRed trade evolution.",
+  author = "Debatesmith; based on the Project Celebi Evolution Man",
+  tags = { "gameplay", "quality-of-life", "firered", "evolution", "trade" },
+
+  differences = {
+    added = {
+      "Adds Evolution Man as a Gentleman NPC on Celadon Dept. Store 2F.",
+      "Lets you select a party Pokemon and trigger a valid trade evolution for ¥2000.",
+      "Supports ordinary and held-item trade evolutions through FireRed's native evolution data.",
+    },
+    changed = {
+      "Trade evolutions performed through this NPC do not require a link partner.",
+    },
+    known = {
+      "Everstone and FireRed's National Dex restrictions still apply.",
+      "Held-item trade evolutions require and consume the correct held item.",
+      "This release targets FireRed on Gen1Recomp 0.3.22-0.3.x.",
+    },
+  },
+
+  compat = {
+    engine = ">=0.3.22 <0.4.0",
+    modApi = 2,
+    game = "Pokemon FireRed",
+  },
+}
